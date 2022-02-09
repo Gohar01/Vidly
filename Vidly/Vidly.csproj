@@ -203,6 +203,18 @@
     <Compile Include="Migrations\202202022323506_UpdateMembershipTypeDuration.Designer.cs">
       <DependentUpon>202202022323506_UpdateMembershipTypeDuration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202202091915293_AddNameFieldInMembershipType.cs" />
+    <Compile Include="Migrations\202202091915293_AddNameFieldInMembershipType.Designer.cs">
+      <DependentUpon>202202091915293_AddNameFieldInMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202091922062_PopulateNameInMembershipType.cs" />
+    <Compile Include="Migrations\202202091922062_PopulateNameInMembershipType.Designer.cs">
+      <DependentUpon>202202091922062_PopulateNameInMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202091930467_CorrectionInNameOfMembershipType.cs" />
+    <Compile Include="Migrations\202202091930467_CorrectionInNameOfMembershipType.Designer.cs">
+      <DependentUpon>202202091930467_CorrectionInNameOfMembershipType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -314,6 +326,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202202022323506_UpdateMembershipTypeDuration.resx">
       <DependentUpon>202202022323506_UpdateMembershipTypeDuration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202091915293_AddNameFieldInMembershipType.resx">
+      <DependentUpon>202202091915293_AddNameFieldInMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202091922062_PopulateNameInMembershipType.resx">
+      <DependentUpon>202202091922062_PopulateNameInMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202091930467_CorrectionInNameOfMembershipType.resx">
+      <DependentUpon>202202091930467_CorrectionInNameOfMembershipType.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
